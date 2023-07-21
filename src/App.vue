@@ -1,26 +1,35 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <headerSite></headerSite>
+  <mainSite></mainSite>
+  <footerSite></footerSite>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import headerSite from './components/header/header.vue'
+import mainSite from './components/main/main.vue'
+import footerSite from './components/footer/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    headerSite,
+    mainSite,
+    footerSite,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    font-style: normal;
+    src:url('~@/assets/fonts/Roboto-Medium.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: "Roboto-Bold";
+    font-style: bold;
+    src:url('~@/assets/fonts/Roboto-Bold.woff2') format('woff2');
+  }
 </style>
