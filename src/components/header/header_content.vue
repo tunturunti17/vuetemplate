@@ -33,8 +33,8 @@ export default {
 <style>
 
   .header__wrapper h1 {
-    font-family: "Roboto-bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 47px;
     box-sizing: content-box;
     margin: 0;
@@ -42,30 +42,33 @@ export default {
     padding-bottom: 26px;
   }
 
-  .header__wrapper h2{
-    font-family: "Roboto-Medium";
+  .header__wrapper h2 {
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 18px;
     margin-top: 0;
-    margin-bottom: 25%;
+    margin-bottom: 38px;
   }
+
   .language {
     display: none;
   }
+
      @media (min-width: 768px) {
     .header__wrapper h1 {
         padding-top: 69px;
         padding-bottom: 0px;
     }
 
-    .header__wrapper h2{
+    .header__wrapper h2 {
         margin:0px;
         padding-bottom:7px;
     }
-    .header__wrapper{
+
+    .header__wrapper {
         align-items: flex-start;
         flex-direction: column;
-        margin-top: 2.5%;
+        margin-top: 25px;
         margin-bottom: 0;
     }
 
@@ -73,13 +76,14 @@ export default {
         width: 100%;
         display: flex;
     }
-   .header__menu {
+
+    .header__menu {
         position: relative;
         display: flex;
         justify-content: space-between;
         width: 100%;
-        font-family: "Roboto-Bold";
-        font-weight: bold;
+        font-family: "Roboto";
+        font-weight: 700;
         font-size: 18px;
         padding-left: 0;
         margin: 0;
@@ -100,10 +104,10 @@ export default {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
-        margin-bottom: 5%;
+        margin-bottom: 45px;
     }
 
-    .language{
+    .language {
         display: flex;
         transform: rotate(270deg);
         padding-left: 2px;
@@ -118,7 +122,7 @@ export default {
         margin: 0;
     }
 
-    .language__menu-item{
+    .language__menu-item {
         list-style-type: none;
         color:#000
     }
@@ -126,24 +130,24 @@ export default {
     .language__menu-item a {
         text-decoration: none;
         color:#828282;
-        font-family: "Roboto-Bold";
+        font-family: "Roboto";
         font-weight: normal;
         font-size: 18px;
     }
 
     .active {
-        font-family: "Roboto-Bold";
+        font-family: "Roboto";
         font-weight: normal;
         font-size: 18px;
         color:#000;
     }
-   .active a{
-        font-family: "Roboto-Bold";
+   .active a {
+        font-family: "Roboto";
         font-weight: normal;
         font-size: 18px;
         color:#000;
     }
-    .mobile{
+    .mobile {
         display: none;
     }
   }

@@ -28,13 +28,13 @@ export default {
         flex-direction: column;
         align-items: center;
         row-gap: 32px;
-        margin-top:15% ;
+        margin-top: 50px;
     }
 
 
     @media (min-width: 500px) {
         .footer__wrapper {
-            margin-top: 10%;
+            margin-top: 60px;
         }
     }
-</style>>
+</style>

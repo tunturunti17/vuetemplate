@@ -56,15 +56,15 @@ export default {
 }
 
 .main__portfolio h2 {
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-align: center;
     margin:0;
 }
 
 .main__portfolio h3 {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 18px;
     text-align: center;
@@ -72,29 +72,31 @@ export default {
     margin-top: 27px;
     margin-bottom:0;
 }
+
 @media (min-width: 500px){
     .main__portfolio h3 {
         margin-top: 41px;
     }
 }
+
 .main__portfolio {
     display: flex;
     flex-direction: column;
     row-gap: 58px;
-    padding: 33% 0;
+    padding: 100px 0;
 }
 
-@media (min-width: 500px){
+@media (min-width: 1200px) {
     .main__portfolio{
         row-gap: 47px;
-        padding-top:6%;
-        padding-bottom:9%
+        padding-top: 100px;
     }
 }
 
-@media (min-width: 500px){
-    .main__portfolio{
-        padding-top:11%;
+@media (min-width: 500px) {
+    .main__portfolio {
+        padding-top: 50px;
+        padding-bottom: 85px;
     }
 }
 
@@ -104,11 +106,13 @@ export default {
     row-gap: 78px;
     flex-direction: column;
 }
-@media (min-width: 500px){
+
+@media (min-width: 500px) {
     .portfolio__list{
         row-gap: 102px;
     }
 }
+
 .portfolio__list-item {
     list-style-type: none;
 }
@@ -123,6 +127,7 @@ export default {
         flex-direction: column;
         align-items: center;
     }
+
     .portfolio__list-item img {
         width: 100%;
     }

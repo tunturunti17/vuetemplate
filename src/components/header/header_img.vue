@@ -21,13 +21,14 @@ export default {
   .header__image {
     display: inline-block;
   }
+
  @media (min-width: 768px){
     .header__image {
         width: 100%;
     }
+    
     .header__image img{
         width: 100%;
     }
-
  }
 </style>>

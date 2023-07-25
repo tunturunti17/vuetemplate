@@ -22,8 +22,8 @@ export default {
 
 <style>
 .footer h2 {
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-align: center;
     margin:0px;
@@ -31,16 +31,16 @@ export default {
 
 @media (min-width: 1200px) {
     .footer {
-        margin-top:5%;
+        margin-top:70px;
     }
     .footer h2 {
-        padding-top:1%;
+        padding-top: 10px;
     }
 
 }
 
 .footer__text {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 18px;
     text-align: center;
@@ -48,13 +48,13 @@ export default {
 
 .footer__text {
     margin: 0;
-    margin-bottom: 14%;
-    padding: 0 5%;
+    margin-bottom: 40px;
+    padding: 0 15px;
 }
 
 @media (min-width: 768px) {
     .footer__text {
-        margin-bottom: 3%;
+        margin-bottom: 8px;
         padding: 0;
     }
 }

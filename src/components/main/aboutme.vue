@@ -17,40 +17,40 @@
                 </p></li>
             </ul>
     </div>
-</template>>
+</template>
 
 <script>
     export default {
         name: 'aboutMain',
     }
 </script>
->
+
 <style>
 .container--about {
     background:#F6F6F6;
 }
 
 .main__about {
-    padding:15% 0;
+    padding: 48px 0;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .main__about {
-        padding-top:12%;
-        padding-bottom:7%;
+        padding-top: 112px;
+        padding-bottom: 65px;
     }
 }
 
 .main__about h2 {
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-align: center;
 }
 
 @media (min-width: 1200px) {
     .main__about h2{
-        margin:0;
+        margin: 0;
     }
 }
 
@@ -60,14 +60,14 @@
     margin-top: 37px;
 }
 
-@media (min-width: 1200px){
-    .about{
+@media (min-width: 1200px) {
+    .about {
        margin-top: 25px; 
     }
 }
 
 .about__item {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 18px;
 }
@@ -78,17 +78,18 @@
     margin-bottom: 47px;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .about__item {
-        padding: 0 26%;
+        padding: 0 245px;
     }
+    
     .about__item:last-child {
-        padding: 0 32%;
+        padding: 0 300px;
     }
 }
 
-.about__item p{
+.about__item p {
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 45px;
 }
-</style>>
+</style>

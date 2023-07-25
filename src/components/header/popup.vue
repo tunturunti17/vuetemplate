@@ -7,7 +7,7 @@
             </ul>
             <a href="" class="popup__close close-popup">
               <svg class = "close">
-                <use xlink:href="../icon/sprite.svg#close"></use>
+                <use xlink:href="@/assets/images/sprite.svg#close"></use>
               </svg>
             </a>
           </nav>
@@ -51,8 +51,8 @@ export default {
 }
 
 .popup__body {
-    padding: 0 7%;
-    margin: 10% 0;
+    padding: 0 25px;
+    margin: 40px 0;
     display: flex;
     flex-direction: column;
     row-gap: 150px;
@@ -75,8 +75,8 @@ export default {
 }
 
 .popup__nav-item a {
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-decoration: none;
     color:#828282;
@@ -111,8 +111,8 @@ export default {
 }
 
 .popup-language__menu-item a {
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-decoration: none;
     color:#828282;
@@ -121,8 +121,8 @@ export default {
 
 .popup-language__menu-item {
     writing-mode: vertical-rl;
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     color:#000;
 }

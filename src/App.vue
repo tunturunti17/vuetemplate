@@ -22,14 +22,13 @@ export default {
 <style>
 
 @font-face {
-    font-family: "Roboto-Medium";
-    font-style: normal;
+    font-family: "Roboto";
     src:url('~@/assets/fonts/Roboto-Medium.woff2') format('woff2');
   }
   
-  @font-face {
+  /* @font-face {
     font-family: "Roboto-Bold";
     font-style: bold;
     src:url('~@/assets/fonts/Roboto-Bold.woff2') format('woff2');
-  }
+  } */
 </style>

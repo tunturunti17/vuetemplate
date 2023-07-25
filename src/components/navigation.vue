@@ -39,14 +39,14 @@
         padding-bottom: 0px;
     }
 
-    .header__wrapper h2{
+    .header__wrapper h2 {
         margin:0px;
         padding-bottom:7px;
     }
     .header__wrapper{
         align-items: flex-start;
         flex-direction: column;
-        margin-top: 2.5%;
+        margin-top: 20px;
         margin-bottom: 0;
     }
 
@@ -62,7 +62,7 @@
         bottom: -30px;
         background-color:#828282;
         height: 1px;
-        width:100%;
+        width: 100%;
     }
 
    .header__menu {
@@ -70,8 +70,8 @@
         display: flex;
         justify-content: space-between;
         width: 100%;
-        font-family: "Roboto-Bold";
-        font-weight: bold;
+        font-family: "Roboto";
+        font-weight: 700;
         font-size: 18px;
         padding-left: 0;
         margin: 0;

@@ -2,27 +2,27 @@
     <ul class="stars">
         <li class = "stars__item">
         <svg class = "star">
-            <use xlink:href="./icon/sprite.svg#star"></use>
+            <use xlink:href="@/assets/images/sprite.svg#star"></use>
         </svg>
         </li>
         <li class = "stars__item">
         <svg class = "star">
-            <use xlink:href="./icon/sprite.svg#star"></use>
+            <use xlink:href="@/assets/images/sprite.svg#star"></use>
         </svg>
         </li>
         <li class = "stars__item">
         <svg class = "star">
-            <use xlink:href="./icon/sprite.svg#star"></use>
+            <use xlink:href="@/assets/images/sprite.svg#star"></use>
         </svg>
         </li>
         <li class = "stars__item">
         <svg class = "star">
-            <use xlink:href="./icon/sprite.svg#star"></use>
+            <use xlink:href="@/assets/images/sprite.svg#star"></use>
         </svg>
         </li>
         <li class = "stars__item">
         <svg class = "star none-active">
-            <use xlink:href="./icon/sprite.svg#star"></use>
+            <use xlink:href="@/assets/images/sprite.svg#star"></use>
         </svg>
         </li>
     </ul>

@@ -39,10 +39,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    margin:0%;
+    margin: 0;
   }
 
-  .header__image img{
+  .header__image img {
     width: 100%;
     height: auto;
   }
@@ -55,7 +55,7 @@ body {
     margin: 0 auto;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 480px) {
     .container {
       max-width: 100%;
     }

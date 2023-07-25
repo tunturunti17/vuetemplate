@@ -4,28 +4,28 @@
             <li class="social__nav-item">
             <a href="#">
                 <svg class = "social__icon">
-                <use xlink:href= "../icon/sprite.svg#linkedin"></use>
+                <use xlink:href= "@/assets/images/sprite.svg#linkedin"></use>
                 </svg>
             </a>
             </li>
             <li class="social__nav-item">
             <a href="#">
                 <svg class = "social__icon">
-                <use xlink:href="../icon/sprite.svg#instagram"></use>
+                <use xlink:href="@/assets/images/sprite.svg#instagram"></use>
                 </svg>
             </a>
             </li>
             <li class="social__nav-item">
             <a href="#">
                 <svg class = "social__icon">
-                <use xlink:href="../icon/sprite.svg#behance"></use>
+                <use xlink:href="@/assets/images/sprite.svg#behance"></use>
                 </svg>
             </a>
             </li>
             <li class="social__nav-item">
             <a href="#">
                 <svg class = "social__icon">
-                <use xlink:href="../icon/sprite.svg#dribble"></use>
+                <use xlink:href="@/assets/images/sprite.svg#dribble"></use>
                 </svg>
             </a>
             </li>
@@ -38,16 +38,16 @@
 export default {
   name: 'socialFooter',
 //   methods: {
-//         getIconUrl(pic) {
-//             return require('../icon/' + pic)
+//         getIconUrl(href) {
+//             return require('@/assets/images/' + href)
 //         },
 //     },
 //     data: function () {
 //         return {
 //             iconItems: [
-//                 {href:'sprite.svg#dribble'},
-//                 {href:'sprite.svg#dribble'},
-//                 {href:'sprite.svg#dribble'},
+//                 {href:'sprite.svg#linkedin'},
+//                 {href:'sprite.svg#instagram'},
+//                 {href:'sprite.svg#behance'},
 //                 {href:'sprite.svg#dribble'},
 //             ]
 //         }
@@ -57,19 +57,18 @@ export default {
 
 <style>
 .social{
-    margin-top: 2%;
+    margin-top: 6px;
 }
 
 @media (min-width: 500px) {
     .social {
-        margin-top: 6%;
+        margin-top: 40px;
     }
 }
 
 .social__menu {
     padding-left: 0;
     display: flex;
-    flex-direction: row;
     column-gap: 51px;
     margin: 0;
     justify-content: center;
@@ -87,7 +86,7 @@ export default {
 }
 
 .footer__share {
-    font-family: "Roboto-Medium";
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 17px;
     text-align: center;
@@ -97,7 +96,7 @@ export default {
 }
 
 @media (min-width: 768px) {
-    .footer__share{
+    .footer__share {
         font-size: 14px;
     }
 }
@@ -106,4 +105,4 @@ export default {
     width: 40px;
     height: 40px;
 }
-</style>>
+</style>

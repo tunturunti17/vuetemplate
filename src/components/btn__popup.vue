@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style>
-    .menu-btn {
+  .menu-btn {
     display: block;
     width: 34px;
     height: 20px;

@@ -54,33 +54,33 @@ import starsSkills from '../starsSkills.vue'
 </script>
 
 <style>
-.main__skills h2{
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+.main__skills h2 {
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 34px;
     text-align: center;
 }
 
-.main__skills h3{
-    font-family: "Roboto-Medium";
+.main__skills h3 {
+    font-family: "Roboto";
     font-weight: normal;
     font-size: 18px;
     text-align: center;
     margin: 0;
-    margin-top: 5%;
-    margin-bottom: 18%;
+    margin-top: 16px;
+    margin-bottom: 57px;
 }
 
-@media (min-width: 1200px){
-    .main__skills h3{
-        margin-top: 3%;
-        margin-bottom: 8%;
+@media (min-width: 1200px) {
+    .main__skills h3 {
+        margin-top: 30px;
+        margin-bottom: 75px;
     }
 }
 
-.main__skills h4{
-    font-family: "Roboto-Bold";
-    font-weight: bold;
+.main__skills h4 {
+    font-family: "Roboto";
+    font-weight: 700;
     font-size: 14px;
     text-align: center;
     color:#828282;
@@ -89,36 +89,36 @@ import starsSkills from '../starsSkills.vue'
     width: 63%;
 }
 
-@media (min-width: 1200px){
-    .main__skills h4{
+@media (min-width: 1200px) {
+    .main__skills h4 {
         margin-bottom: 40px;
     }
 }
 
-.main__skills{
+.main__skills {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 15%;
-    padding-top: 10%;
+    padding-bottom: 32px;
+    padding-top: 48px;
 }
 
-@media (min-width: 1200px){
-    .main__skills{
-        padding-top: 6%;
-        padding-bottom: 10%;
+@media (min-width: 1200px) {
+    .main__skills {
+        padding-top: 55px;
+        padding-bottom: 95px;
     }
 }
 
-.skills__list, .stars{
+.skills__list, .stars {
     padding-left: 0;
 }
 
-.skills__list-item, .stars__item{
+.skills__list-item, .stars__item {
     list-style-type: none;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .skills{
         width: 100%;
     }
@@ -134,7 +134,7 @@ import starsSkills from '../starsSkills.vue'
     column-gap: 50px;
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     .skills__list {
         width: 100%;
         flex-direction: row;
@@ -149,7 +149,7 @@ import starsSkills from '../starsSkills.vue'
 }
 
 @media (min-width: 1200px) {
-    .skills__list-item:last-child h4{
+    .skills__list-item:last-child h4 {
         margin-bottom: 57px;
     }
 }

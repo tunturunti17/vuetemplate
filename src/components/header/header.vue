@@ -38,7 +38,13 @@ export default {
     justify-content: space-around;
     align-items: flex-start;
     column-gap: 25px;
-    margin-bottom: 11%;
+    margin-bottom: 35px;
+  }
+
+  @media (min-width: 768px) {
+    .header__wrapper {
+      margin-bottom: 100px;
+    }
   }
 
   .container {
@@ -49,11 +55,12 @@ export default {
     margin: 0 auto;
   }
 
-  @media (min-width: 480px){
+  @media (min-width: 480px) {
     .container {
       max-width: 100%;
     }
   }
+
   @media (min-width:768px) {
     .container {
       max-width:700px;
@@ -63,7 +70,6 @@ export default {
     }
   }
 
-
   @media (min-width:1200px) {
     .container {
       max-width:940px;
@@ -72,4 +78,4 @@ export default {
       margin: 0 auto;
     }
   }
-</style>>
+</style>
